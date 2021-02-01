@@ -1,0 +1,28 @@
+using System;
+
+namespace CarSalesReport
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int ford = 500;
+            int dodge = 700;
+            int toyota = 900;
+            int nissan = 800;
+            int chevy = 900;
+            int mercedez = 200;
+            int total = 0;
+
+
+            total = ford + dodge + toyota + nissan + chevy + mercedez;
+            Console.Write(total);
+
+
+
+
+                   
+        }
+    }
+}
